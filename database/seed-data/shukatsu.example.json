@@ -1,0 +1,39 @@
+{
+    "user": {
+        "name": "就活 太郎",
+        "email": "taro@example.com"
+    },
+    "profile": {
+        "full_name": "就活 太郎",
+        "full_name_kana": "シュウカツ タロウ",
+        "full_name_roman": "SHUKATSU TARO",
+        "contact_email": "taro@example.com",
+        "github_url": "https://github.com/example"
+    },
+    "educations": [
+        { "school": "〇〇高等学校", "degree": "高校卒業", "entered_on": "2021-04", "graduated_on": "2024-03", "graduation_status": "graduated" },
+        { "school": "〇〇大学", "faculty": "情報学部", "department": "情報工学科", "degree": "学士", "entered_on": "2024-04", "graduated_on": "2028-03", "graduation_status": "expected" }
+    ],
+    "certifications": [
+        { "name": "基本情報技術者試験", "acquired_on": "2025-10" }
+    ],
+    "companies": [
+        {
+            "name": "サンプル株式会社",
+            "phase": "intern",
+            "stage": "es",
+            "priority": "first",
+            "tags": ["セキュリティ"],
+            "mypage_url": "https://example.com/mypage",
+            "mypage_login_id": "abc12345",
+            "memo": "phase: intern | early | main\nstage: interested | waiting | seminar | es | applied | webtest | interview | final | joined | offer | rejected | declined\npriority: first | normal | backup",
+            "events": [
+                { "type": "deadline", "title": "ES締切", "starts_at": "2026-12-01 23:59" },
+                { "type": "intern", "title": "5daysインターン", "starts_at": "2027-02-01", "ends_at": "2027-02-05", "all_day": true }
+            ],
+            "es_answers": [
+                { "category": "motivation", "question": "志望動機", "char_limit": 400, "answer": "（ここに回答）" }
+            ]
+        }
+    ]
+}
